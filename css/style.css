@@ -1,0 +1,135 @@
+body 
+{
+	font-family: Helvetica, sans-serif;
+}
+
+::-webkit-input-placeholder 
+{
+   text-align: center;
+}
+
+p 
+{ 
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+h2 
+{ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8em
+}
+
+.background
+{
+    background-image: linear-gradient(orange, #4A29CB);
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.first-container
+{
+    padding: 90px;
+}
+
+.title
+{
+    font-size: 54px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    color: white;
+    padding: 30px
+}
+
+.input-pad
+{
+    padding-bottom: 30px;
+}
+
+.code-input
+{
+    width: 360px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: green;
+}
+
+.begin-pad
+{
+    padding-right: 50px;
+    padding-bottom: 30px;
+}
+
+.card-pad
+{
+    padding-left: 320px;
+}
+
+.card-back
+{
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    width: 60%;
+}
+
+.begin-btn
+{
+  width: 180px;
+  height: 40px;
+  border-radius: 20px;
+  border-color: #C6C013;
+  border-width: thin;
+  background-color: #FFE882;
+  color: black;
+  font-weight: bold;
+}
+
+.title2
+{
+    font-size: 56px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.94;
+    letter-spacing: normal;
+    color: white;
+    padding-top: 30px
+}
+
+.card-pad2
+{
+    padding-left: 200px;
+}
+
+.card-back2
+{
+    position: relative;
+    margin: .5rem 0 1rem 0;
+    background-color: rgba(255,255,255,0.6);
+    -webkit-transition: -webkit-box-shadow .25s;
+    transition: -webkit-box-shadow .25s;
+    transition: box-shadow .25s;
+    transition: box-shadow .25s, -webkit-box-shadow .25s;
+    width: 80%;
+}
+
+.spinner
+{
+    padding-left: 290px;
+}
